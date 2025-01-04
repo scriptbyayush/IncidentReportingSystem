@@ -1,0 +1,188 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar {
+    background-color: #3f51b5; /* Android Developer purple */
+    color: white;
+    padding: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar li {
+    display: inline;
+  }
+  
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .navbar a:hover {
+    background-color: #303f9f; /* Darker shade of purple */
+    border-radius: 4px;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  form label {
+    font-weight: bold;
+  }
+  
+  form input, form textarea, form select {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  form button {
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background-color: #0056b3;
+  }
+  
+  .incident-list {
+    margin-top: 20px;
+  }
+  
+  .incident {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+  }
+  
+  .incident p {
+    margin: 5px 0;
+  }
+  
+
+  .incident form {
+  margin-top: 15px;
+}
+
+.incident textarea {
+  width: 100%;
+  height: 50px;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+}
+
+.incident button {
+  padding: 10px 15px;
+  background-color: #007BFF;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.incident button:hover {
+  background-color: #0056b3;
+}
+
+
+
+
+
+
+
+
+/* Adjustments to navigation bar */
+.navbar a {
+    font-size: 18px; /* Slightly larger font size for better readability */
+    padding: 12px; /* Increased padding for better clickability */
+  }
+  
+  /* Updated styles for the form button */
+  form button, .incident button {
+    padding: 12px 20px; /* Slightly larger button for better interaction */
+    font-size: 18px; /* Slightly larger text for better readability */
+    border-radius: 6px; /* Round corners for better aesthetics */
+  }
+  
+  /* Ensure form inputs have consistent styling */
+  form input, form textarea, form select {
+    font-size: 18px; /* Larger font for readability */
+    padding: 12px; /* Increased padding for ease of use */
+  }
+  
+  /* Adjust incident text area styling */
+  .incident textarea {
+    font-size: 18px; /* Larger text for comments */
+    padding: 12px; /* Increased padding */
+  }
+  
+  /* Optional: Add focus state to form inputs for better UX */
+  form input:focus, form textarea:focus, form select:focus {
+    border-color: #3f51b5; /* Highlight inputs on focus */
+    outline: none;
+  }
+  .ai-suggestion {
+    float: right;
+    width: 30%;
+    margin-left: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+  }
+  
+  .ai-suggestion form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .ai-suggestion textarea {
+    width: 100%;
+    height: 100px;
+  }
+  
+  .ai-suggestion button {
+    margin-top: 10px;
+  }
+  
